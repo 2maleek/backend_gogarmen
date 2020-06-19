@@ -1,0 +1,1152 @@
+{
+	"id": "ca5cf3cb-542a-453f-8391-6bf763f5a71b",
+	"name": "gogarmen_documentation",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"2c0ca694-35b7-4a5c-a16e-41235ab7bcd4",
+		"1145b776-7437-48c9-b293-61506fb18415",
+		"1e486dd9-290a-462e-af8d-22bd9927bb29",
+		"6bc1f34a-8239-4258-b23e-6c2b7b1c9d64",
+		"d44f39d1-b727-4d03-a352-111f1ae1b5ec",
+		"1d5afe19-63b8-4454-9446-0e705d13568f",
+		"64cef006-057e-4150-bdb6-1bae05750574",
+		"03fd830c-5b78-4d50-9f5b-914a848f6cdd",
+		"2d23606f-3f5c-4265-8c21-170411b47fb6",
+		"bd81ea76-cb84-4603-af5b-cf6bdd3e73a7",
+		"190ae233-98a1-48b2-8246-a4eaf80ac2ed",
+		"4dc943cc-581a-4cf3-bc0f-3505dc13ef15",
+		"0e830fda-942f-49a7-8b7e-e1c21cd3cf55",
+		"14558207-5d8b-4ee8-a53f-5b9fca5e5500",
+		"81808ff0-412c-4a25-951f-0aecd56b7972",
+		"d6efd60e-81a4-45f3-a239-2f902c4e0f7c",
+		"982fe703-fbd7-41a4-b7f0-c7bad048b546",
+		"9847289a-6314-40a0-947e-1297e9c6017b",
+		"0db3a75b-1147-41ed-a413-b4d707ee3709",
+		"e58621c9-e798-497f-bbe9-dda75803a535",
+		"84a9d78f-ffec-4152-a49c-4e2e6bb1567d",
+		"76215b1a-f905-46fd-a1ad-5def888e6375",
+		"2e456aba-4a7e-4188-886c-46dc606e8548",
+		"d7464fe3-f203-4a95-9240-46b81d7aaff8",
+		"4951055b-2917-4c22-a24d-a682e13a9cff"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "03fd830c-5b78-4d50-9f5b-914a848f6cdd",
+			"name": "/v1/branches/ ?token={auth token} (forbidden access)",
+			"url": "localhost:4000/v1/branches?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Pondok Indah",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "0db3a75b-1147-41ed-a413-b4d707ee3709",
+			"name": "create studio (unauthorized)",
+			"url": "localhost:4000/v1/studios?token=",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "1200000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "0e830fda-942f-49a7-8b7e-e1c21cd3cf55",
+			"name": "Get all branchs (forbidden acces)",
+			"url": "localhost:4000/v1/branches/2?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bintaro",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "1145b776-7437-48c9-b293-61506fb18415",
+			"name": "/v1/auth/logout/token?{auth_token}",
+			"url": "localhost:4000/v1/auth/logout?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "14558207-5d8b-4ee8-a53f-5b9fca5e5500",
+			"name": "Delete all branchs (forbidden acces)",
+			"url": "localhost:4000/v1/branches/2?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bintaro",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "190ae233-98a1-48b2-8246-a4eaf80ac2ed",
+			"name": "Get all branchs (forbidden access)",
+			"url": "localhost:4000/v1/branches?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "1d5afe19-63b8-4454-9446-0e705d13568f",
+			"name": "/v1/branches/ ?token={auth token} (empty field)",
+			"url": "localhost:4000/v1/branches?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "1e486dd9-290a-462e-af8d-22bd9927bb29",
+			"name": "/v1/auth/login (Failed)",
+			"url": "localhost:4000/v1/auth/login",
+			"description": "",
+			"data": [
+				{
+					"key": "username",
+					"value": "admin1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "admin1111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2c0ca694-35b7-4a5c-a16e-41235ab7bcd4",
+			"name": "/v1/auth/login",
+			"url": "localhost:4000/v1/auth/login",
+			"description": "",
+			"data": [
+				{
+					"key": "username",
+					"value": "admin1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2d23606f-3f5c-4265-8c21-170411b47fb6",
+			"name": "Get all branchs (success)",
+			"url": "localhost:4000/v1/branches/2?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bintaro",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2e456aba-4a7e-4188-886c-46dc606e8548",
+			"name": "get all studios(success)",
+			"url": "localhost:4000/v1/studios?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "120000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "4951055b-2917-4c22-a24d-a682e13a9cff",
+			"name": "update studio (success)",
+			"url": "localhost:4000/v1/studios/1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 211 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "120000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "4dc943cc-581a-4cf3-bc0f-3505dc13ef15",
+			"name": "Get all branchs (unathorized)",
+			"url": "localhost:4000/v1/branches/2?token=",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bintaro",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "64cef006-057e-4150-bdb6-1bae05750574",
+			"name": "/v1/branches/ ?token={auth token} (unauthorized)",
+			"url": "localhost:4000/v1/branches?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1t",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Pondok Indah",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1t",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "6bc1f34a-8239-4258-b23e-6c2b7b1c9d64",
+			"name": "/v1/auth/logout/token?{auth_token} (Failed)",
+			"url": "localhost:4000/v1/auth/logout?token=eyJ",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "76215b1a-f905-46fd-a1ad-5def888e6375",
+			"name": "updatestudio (success)",
+			"url": "localhost:4000/v1/studios/1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "120000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "81808ff0-412c-4a25-951f-0aecd56b7972",
+			"name": "Get all branchs (unathorized)",
+			"url": "localhost:4000/v1/branches/2?token=",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bintaro",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "84a9d78f-ffec-4152-a49c-4e2e6bb1567d",
+			"name": "create movie(forbidden access)",
+			"url": "localhost:4000/v1/movies?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "kunfu panda",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minuteLength",
+					"value": "120",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "picture",
+					"value": "panda.jpg",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "982fe703-fbd7-41a4-b7f0-c7bad048b546",
+			"name": "create studio (success)",
+			"url": "localhost:4000/v1/studios?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "120000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "9847289a-6314-40a0-947e-1297e9c6017b",
+			"name": "create studio (invalid field)",
+			"url": "localhost:4000/v1/studios?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "bd81ea76-cb84-4603-af5b-cf6bdd3e73a7",
+			"name": "Get all branchs (unauthorized)",
+			"url": "localhost:4000/v1/branches?token=12",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "12",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d44f39d1-b727-4d03-a352-111f1ae1b5ec",
+			"name": "/v1/branches/ ?token={auth token} (Create success)",
+			"url": "localhost:4000/v1/branches?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Pondok Indah",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d6efd60e-81a4-45f3-a239-2f902c4e0f7c",
+			"name": "Get all branchs (success)",
+			"url": "localhost:4000/v1/branches/2?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bintaro",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d7464fe3-f203-4a95-9240-46b81d7aaff8",
+			"name": "delete studios(success)",
+			"url": "localhost:4000/v1/studios/1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "120000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4xIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkyNTQyNDIxfQ.jdmWgW8_Np7FenUPIswmHaTKm0MIXMXNw7-utp_K1to",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e58621c9-e798-497f-bbe9-dda75803a535",
+			"name": "create studio (forbidden access)",
+			"url": "localhost:4000/v1/studios?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "studio 2 PI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "BranchId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "basicPrice",
+					"value": "90000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSaturdayPrice",
+					"value": "110000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addFridayPrice",
+					"value": "100000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addSundayPrice",
+					"value": "1200000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsInVzZXJuYW1lIjoidXNlcjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTU5MjU0NTM4Nn0.wM9PF16Fipm0KFX_86JCpWmCOLawXbEw5Yw3jueqCdg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
